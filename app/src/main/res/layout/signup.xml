@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.ananya.authenticlogin.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#ffffff">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="90dp" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="153dp" />
+
+
+        <EditText
+                android:id="@+id/editText"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="172dp"
+                />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="231dp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="293dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="251dp" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            tools:layout_editor_absoluteX="46dp"
+            tools:layout_editor_absoluteY="309dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Forgot Password?"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="391dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Already Registered? Login"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="447dp" />
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+</android.support.constraint.ConstraintLayout>
